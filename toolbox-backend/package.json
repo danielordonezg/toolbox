@@ -1,0 +1,26 @@
+{
+  "name": "prueba-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/test/index.js --timeout 10000",
+    "start": "nodemon index.js"
+  },
+  "author": "Daniel Alexander Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.21",
+    "supertest": "^6.3.3"
+  }
+}
